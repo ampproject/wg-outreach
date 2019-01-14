@@ -5,10 +5,10 @@ title: wg-outreach Status Update YYYY-MM-DD
 labels: 'Type: Status Update'
 assignees: ''
 
- ---
+---
 
- ## What was accomplished
+## What was accomplished
 
- ## Lessons learned
+## Lessons learned
 
- ## What's next
+## What's next
