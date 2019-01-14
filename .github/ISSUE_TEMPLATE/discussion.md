@@ -1,7 +1,7 @@
 ---
 name: Discussion
 about: Used to track discussions within the working group.  Not for bugs/feature requests.
-title: Discussion: <replace with a brief description of topic>
+title: 'Discussion: <replace with a brief description of topic>'
 labels: 'Type: Discussion'
 assignees: ''
 
