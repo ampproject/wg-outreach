@@ -33,4 +33,4 @@ Any bugs or feature requests related to AMP or our documentation/website should 
 `@ampproject/wg-outreach` can be used to mention the Outreach Working Group in issues and PRs.
 
 # Code of Conduct
-UI Working Group follows the [AMP open source project code of conduct](https://github.com/ampproject/meta/blob/master/CODE_OF_CONDUCT.md).
+Outreach Working Group follows the [AMP open source project code of conduct](https://github.com/ampproject/meta/blob/master/CODE_OF_CONDUCT.md).
