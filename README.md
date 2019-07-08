@@ -5,10 +5,11 @@ Responsible for helping developers who use AMP remain productive and keeping the
 # Members
 
 - [@pbakaus](https://github.com/pbakaus) - Paul Bakaus (Faciliator)
-- [@CrystalFaith](https://github.com/CrystalFaith) - Crystal Lambert
+- [@CrystalOnScript](https://github.com/CrystalOnScript) - Crystal Lambert
 - [@morsssss](https://github.com/morsssss) - Ben Morss
 - [@mrjoro](https://github.com/mrjoro) - Joey Rozier
 - [@sebastianbenz](https://github.com/sebastianbenz) - Sebastian Benz
+- [@alankent](https://github.com/alankent) - Alan Kent
 
 Github team https://github.com/orgs/ampproject/teams/wg-outreach also includes Outreach WG members.
 
