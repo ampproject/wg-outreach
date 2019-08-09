@@ -31,6 +31,8 @@ readline.Interface.prototype.questionAsync = promisify(
     readline.Interface.prototype.question,
 );
 
+const MEETING_NAME = 'wg-outreach weekly';
+
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/calendar.events'];
 // The file token.json stores the user's access and refresh tokens, and is
@@ -44,8 +46,10 @@ const TOKEN_PATH = './config/token.json';
 class CalendarConnector {
   /**
    * Initializes the class.
+   * @param {Number} maxResults
    */
-  constructor() {
+  constructor(maxResults = 20) {
+    this.maxResults = maxResults;
   }
 
   /**
@@ -70,23 +74,25 @@ class CalendarConnector {
     const response = await this._calendar.events.list({
       calendarId: 'primary',
       timeMin: (new Date()).toISOString(),
-      maxResults: 10,
+      maxResults: this.maxResults * 3,
       singleEvents: true,
       orderBy: 'startTime',
     });
 
-    const events = response.data.items;
+    let events = response.data.items;
+    events = events.filter((event) => {
+      return event.summary.indexOf(MEETING_NAME) > -1;
+    });
     if (events.length) {
-      console.log('Upcoming 10 events:');
       events.forEach((event, i) => {
         event.dateString = (event.start.dateTime || event.start.date)
             .replace(/T.*/, '');
       });
     } else {
-      console.log('No upcoming events found.');
+      console.log('No upcoming meetings found.');
     }
 
-    return events;
+    return events.slice(0, this.maxResults);
   }
 
   /**
