@@ -1,0 +1,19 @@
+{
+  "name": "wg-outreach-scripts",
+  "version": "1.0.0",
+  "description": "Misc collection of scripts to run wg-outreach related tasks.",
+  "main": "create-meeting-issues.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0"
+  },
+  "dependencies": {
+    "googleapis": "39",
+    "octonode": "^0.9.5"
+  }
+}
