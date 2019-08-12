@@ -15,7 +15,7 @@ const ISSUE_TEMPLATE_BODY = `This is wg-outreach's regular weekly meeting with v
 17:00 (10am PT)
 
 **Instructions for joining the meeting**
-Please join us on Google Meet with [this link](meet.google.com/hvn-ihfs-tnz).
+Please join us on Google Meet with [this link](https://meet.google.com/hvn-ihfs-tnz).
 
 **Agenda**
 *Note: Add a comment on this issue to propose items for the agenda.*
