@@ -1,10 +1,10 @@
 # AMP Outreach working group
 
-Responsible for helping developers who use AMP remain productive and keeping the AMP community healthy. This includes maintaining and enhancing AMP's developer-facing sites and documentation, maintaining communication channels, organizing community events, etc.
+Responsible for helping developers who use AMP to remain productive and keeping the AMP community healthy. This includes maintaining and enhancing AMP's developer-facing sites and documentation, maintaining communication channels, organizing community events, etc.
 
 # Members
 
-- [@pbakaus](https://github.com/pbakaus) - Paul Bakaus (Faciliator)
+- [@pbakaus](https://github.com/pbakaus) - Paul Bakaus (Facilitator)
 - [@CrystalOnScript](https://github.com/CrystalOnScript) - Crystal Lambert
 - [@morsssss](https://github.com/morsssss) - Ben Morss
 - [@mrjoro](https://github.com/mrjoro) - Joey Rozier
@@ -13,7 +13,7 @@ Responsible for helping developers who use AMP remain productive and keeping the
 - [@mattludwig](https://github.com/mattludwig) - Matt Ludwig
 - [@uskay](https://github.com/uskay) - Yusuke Utsonomiya
 
-Github team https://github.com/orgs/ampproject/teams/wg-outreach also includes Outreach WG members.
+Github team [github.com/orgs/ampproject/teams/wg-outreach](https://github.com/orgs/ampproject/teams/wg-outreach) also includes Outreach WG members.
 
 ## Communication channels
 
@@ -32,9 +32,10 @@ Github team https://github.com/orgs/ampproject/teams/wg-outreach also includes O
 
 ### Issues / requests / bugs
 
-Any bugs or feature requests related to AMP or our documentation/website should NOT be filed in this repository and https://github.com/ampproject/amphtml/issues and respectively https://github.com/ampproject/docs/issues should be used instead.
+Please do not file issues related to AMP or our documentation/website in this repository. Instead, use [github.com/ampproject/amphtml/issues](https://github.com/ampproject/amphtml/issues) and [github.com/ampproject/amp.dev/issues](https://github.com/ampproject/amp.dev/issues), respectively.
 
 `@ampproject/wg-outreach` can be used to mention the Outreach Working Group in issues and PRs.
 
 # Code of Conduct
+
 Outreach Working Group follows the [AMP open source project code of conduct](https://github.com/ampproject/meta/blob/master/CODE_OF_CONDUCT.md).
