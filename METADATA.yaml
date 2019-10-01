@@ -21,10 +21,18 @@ members:
   - login: uskay
     name: Yusuke Utsonomiya
 communication:
-  - slack: Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877))
-    + \#wg-outreach - main channel for outreach related real time communication (open to anyone)
-    + \#docs - for everything documentation related
-    + \#amp-conf - for everything AMP Conf related
-  - status_updates: Outreach Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository.
-  - announcements: Outreach Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository.
-  - roadmap: Outreach Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository.
+  - channel: slack
+    name: Slack
+    content: "Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877))
+    + #wg-outreach - main channel for outreach related real time communication (open to anyone)
+    + #docs - for everything documentation related
+    + #amp-conf - for everything AMP Conf related"
+  - channel: status_updates
+    name: Status Updates
+    content: "Outreach Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository."
+  - channel: announcements
+    name: Status Updates
+    content: "Outreach Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository."
+  - channel: roadmap
+    name: Quarterly Roadmap
+    content: "Outreach Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository."
