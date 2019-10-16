@@ -4,8 +4,6 @@ facilitator:
   login: pbakaus
   name: Paul Bakaus
 members:
-  - login: pbakaus
-    name: Paul Bakaus
   - login: CrystalOnScript
     name: Crystal Lambert
   - login: morsssss
@@ -27,12 +25,9 @@ communication:
     + #wg-outreach - main channel for outreach related real time communication (open to anyone)
     + #docs - for everything documentation related
     + #amp-conf - for everything AMP Conf related"
-  - channel: status_updates
-    name: Status Updates
-    content: "Outreach Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository."
-  - channel: announcements
-    name: Status Updates
-    content: "Outreach Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository."
-  - channel: roadmap
-    name: Quarterly Roadmap
-    content: "Outreach Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository."
+  - channel: github
+    name: GitHub
+    content:
+      - item: "Outreach Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository."
+      - item: "Outreach Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository."
+      - item: "Outreach Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository."
