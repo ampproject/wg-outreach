@@ -4,11 +4,11 @@ Responsible for helping developers who use AMP to remain productive and keeping 
 
 # Members
 
-- [@pbakaus](https://github.com/pbakaus) - Paul Bakaus (Facilitator)
+- [@sebastianbenz](https://github.com/sebastianbenz) - Sebastian Benz (Facilitator)
+- [@pbakaus](https://github.com/pbakaus) - Paul Bakaus
 - [@CrystalOnScript](https://github.com/CrystalOnScript) - Crystal Lambert
 - [@morsssss](https://github.com/morsssss) - Ben Morss
 - [@mrjoro](https://github.com/mrjoro) - Joey Rozier
-- [@sebastianbenz](https://github.com/sebastianbenz) - Sebastian Benz
 - [@alankent](https://github.com/alankent) - Alan Kent
 - [@mattludwig](https://github.com/mattludwig) - Matt Ludwig
 - [@uskay](https://github.com/uskay) - Yusuke Utsonomiya
