@@ -18,6 +18,8 @@ members:
     name: Matt Ludwig
   - login: uskay
     name: Yusuke Utsonomiya
+  - login: patrickkettner
+    name: Patrick Kettner
 communication:
   - channel: slack
     name: Slack

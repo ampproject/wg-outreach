@@ -12,6 +12,7 @@ Responsible for helping developers who use AMP to remain productive and keeping 
 - [@alankent](https://github.com/alankent) - Alan Kent
 - [@mattludwig](https://github.com/mattludwig) - Matt Ludwig
 - [@uskay](https://github.com/uskay) - Yusuke Utsonomiya
+- [@patrickkettner](https://github.com/patrickkettner) - Patrick Kettner
 
 Github team [github.com/orgs/ampproject/teams/wg-outreach](https://github.com/orgs/ampproject/teams/wg-outreach) also includes Outreach WG members.
 
