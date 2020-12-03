@@ -4,14 +4,14 @@ facilitator:
   login: sebastianbenz
   name: Sebastian Benz
 members:
-  - login: CrystalOnScript
+  - login: pbakaus
+    name: Paul Bakaus
+  - login: crystalonscript
     name: Crystal Lambert
   - login: morsssss
     name: Ben Morss
   - login: mrjoro
     name: Joey Rozier
-  - login: pbakaus
-    name: Paul Bakaus
   - login: alankent
     name: Alan Kent
   - login: mattludwig
