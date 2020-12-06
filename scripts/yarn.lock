@@ -923,10 +923,10 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-octonode@^0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/octonode/-/octonode-0.9.5.tgz#0237ea289a2d6642068f6383a420bf97cfca993e"
-  integrity sha512-l+aX9jNVkaagh7u/q2QpNKdL8XUagdztl+ebXxBRU6FJ1tpRxAH/ygIuWh0h7eS491BsyH6bb0QZIQEC2+u5oA==
+octonode@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/octonode/-/octonode-0.10.0.tgz#e5289135f16453b05c2812e69a2945df36a11949"
+  integrity sha512-XnB9zEK8hWYsVaoq8G/RnNOTSl+kwi0lSx4DEqjxtKc6PkkiT5ZiIUufcjtDQ0pZJsVpwWhUd6ZOhpoIVBOAwA==
   dependencies:
     bluebird "^3.5.0"
     deep-extend "^0.6.0"
