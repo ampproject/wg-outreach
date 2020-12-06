@@ -17,6 +17,9 @@ const ISSUE_TEMPLATE_BODY = `This is wg-outreach's regular weekly meeting with v
 **Instructions for joining the meeting**
 Please join us on Google Meet with [this link](https://meet.google.com/hvn-ihfs-tnz).
 
+**Notetaker**
+(Not assigned yet)
+
 **Agenda**
 *Note: Add a comment on this issue to propose items for the agenda.*
 
@@ -55,9 +58,9 @@ class IssueUpdater {
   }
 
   /**
-   * @return {Date} latestIssueDate
+   * @return {Array} issues
    */
-  async getLatestIssueDate() {
+  async fetchIssues() {
     const result = await this._repo.issuesAsync({
       per_page: 100,
       state: 'open',
@@ -73,6 +76,14 @@ class IssueUpdater {
     });
 
     this._issues.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime() );
+    return this._issues;
+  }
+
+  /**
+   * @return {Object} latestIssue
+   */
+  async getLatestIssueDate() {
+    await this.fetchIssues();
     return this._issues[0];
   }
 
@@ -100,6 +111,50 @@ class IssueUpdater {
 
     return totalNewIssues;
   }
+
+  /**
+   * @return {Number} totalnewIssues
+   */
+  async updateNotetakers() {
+    // find out what the latest generated meeting item was
+    const issues = await this.fetchIssues();
+    let updated = 0;
+    const notetakers = [
+      'sebastianbenz',
+      'alankent',
+      'CrystalOnScript',
+      'mattludwig',
+      'morsssss',
+      'mrjoro',
+      'pbakaus',
+    ];
+
+    for (let index = 0; index < issues.length; index++) {
+      const issue = issues[index];
+      if (/\(Not assigned yet\)/.test(issue.body)) {
+        await this._repo.client.patchAsync('/repos/' + this._repo.name + '/issues/' + issue.number, {
+          'body': issue.body.replace('(Not assigned yet)', '@' + notetakers[index % notetakers.length]),
+        });
+        updated++;
+      }
+    }
+
+    /*
+    return this.client.patch("/repos/" + this.repo + "/issues/" + this.number, obj, function(err, s, b, h) {
+      if (err) {
+        return cb(err);
+      }
+      if (s !== 200) {
+        return cb(new Error("Issue update error"));
+      } else {
+        return cb(null, b, h);
+      }
+    });
+    */
+
+    return updated;
+  }
+
   /**
    * @param {String} dateString
    * @return {Array} issue
