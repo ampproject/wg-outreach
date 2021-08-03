@@ -29,7 +29,6 @@ Github team [github.com/orgs/ampproject/teams/wg-outreach](https://github.com/or
 
 - Outreach Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository.
 - Outreach Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository.
-- Outreach Working Group will post **Quarterly Roadmap** as an issue labeled with `Type: Roadmap` in this repository.
 
 ### Issues / requests / bugs
 
