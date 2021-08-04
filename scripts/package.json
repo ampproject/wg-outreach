@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "googleapis": "42",
-    "octonode": "^0.9.5"
+    "octonode": "^0.10.0"
   }
 }
