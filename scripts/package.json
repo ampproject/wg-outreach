@@ -13,7 +13,7 @@
     "eslint-config-google": "0.13.0"
   },
   "dependencies": {
-    "googleapis": "42",
+    "googleapis": "134",
     "octonode": "^0.9.5"
   }
 }
